@@ -1,10 +1,11 @@
 import logo from '../logo.png';
 import '../styles/Banner.css';
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 
 function Banner() {
     return (
+        <Router>
 <nav className="nav">
     <Link to="/">
     <img src={logo} className="Nav-logo" alt="logo kasa" />
@@ -18,6 +19,7 @@ function Banner() {
         </Link>
     </div>
     </nav>
+    </Router>
     )
 }
 export default Banner
