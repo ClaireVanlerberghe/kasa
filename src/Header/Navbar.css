@@ -1,0 +1,16 @@
+.accueil-nav{
+    text-decoration: none;
+    color: #FF6060;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.about-nav{
+    padding: 0px 100px 0px 57px;
+    text-decoration: none;
+    color: #FF6060;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
