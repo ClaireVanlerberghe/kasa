@@ -1,6 +1,6 @@
 import Banner from '../Home/Banner/Banner'
 import Cardlist from '../Home/Card/Cardlist';
-import locationData from '../Assets/logements.json'
+import locationData from '../../Assets/logements.json'
 
 
 function Home() {
