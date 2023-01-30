@@ -1,14 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App/App';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
+import './index.css';
+import Header from './Header/Header';
+import Home from './Home/Home'
+import About from './About/About'
+import Footer from './Footer/Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
-    <App />
-    
+    <Header />
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path='/About' element={<About />} />
+      </Routes>
+    </Router>
+    <Footer />
   </React.StrictMode>
 );
 

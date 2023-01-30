@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import './Navbar.css'
 
+
 function Nav() {
     return (
         <Router>
