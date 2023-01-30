@@ -1,0 +1,16 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerLogo{
+    width: 122px;
+    padding: 66px 0px 28px 0px;
+}
+.footerText{
+    color: white;
+    padding-bottom: 29px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,9 +1,14 @@
 import './Cardlist.css'
+import Card from './Card'
 
-function Cardlist() {
+function Cardlist( {locationData} ) {
     return(
     <div className="cardList">
-        <p>Coucou toi</p>
+        {
+            locationData.map((card) => (
+                <Card key={card.id} {...card} />
+            ))
+        }
     </div>
     )
 }

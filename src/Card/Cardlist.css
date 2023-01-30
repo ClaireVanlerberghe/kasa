@@ -2,4 +2,9 @@
     background-color: #f6f6f6;
    margin: 43px 100px 43px 100px;
    border-radius: 25px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
 }
