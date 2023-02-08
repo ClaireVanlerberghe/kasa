@@ -7,10 +7,10 @@ function Home() {
 
 return (
     <div>
-    
+  
     <Banner />
     <Cardlist  locationData={locationData} />
-    
+  
     </div>
   );
 }

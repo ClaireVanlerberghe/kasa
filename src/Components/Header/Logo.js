@@ -1,6 +1,6 @@
 import logo from '../../logo.png';
 import './Logo.css'
-import { BrowserRouter as  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Logo() {
     return (
