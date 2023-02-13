@@ -2,8 +2,10 @@ import {useState} from "react";
 import chevron from '../../chevron1.png'
 import './Collapse.css'
 
-function Collapse({titre, description}) {
-    const [open, setOpen] = useState(false);
+
+//En fonction de l'état du composant, il ouvre et ferme le collapse au click sur la flèche
+function Collapse({titre, description}) { // Les props transmettent les informations nécessaires, ici le titre et la description
+    const [open, setOpen] = useState(false); 
 
     return(
         <div className="collapse" id={`collapse-${titre}`}>
@@ -14,7 +16,7 @@ function Collapse({titre, description}) {
             </span>
         </div>
         {
-            /* Si le collapse est à TRUE, il affichera la description */
+            //Si le collapse est à TRUE, il affichera la description 
             open && <div className="description-collapse">{description}</div>
         }
     </div>
