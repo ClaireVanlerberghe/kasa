@@ -67,7 +67,7 @@ function Fiche() {
                             <Collapse titre="Équipements" description={equipementsLogement}/>
                         </div>
                     </div>
-                ) : <Navigate replace to="/404"/>
+                ) : <Navigate replace to="/*"/>
             }
         </>
     )

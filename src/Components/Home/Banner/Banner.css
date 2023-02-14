@@ -22,3 +22,15 @@
     color: #FFFFFF;
 
 }
+@media screen and (max-width: 500px) {
+    .banner{
+        margin: 0px 20px 0px 20px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../../bannerResponsive.png');
+        padding: 70px 0px 70px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bannerText{
+        font-size: 24px;
+    }
+}

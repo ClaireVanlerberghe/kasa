@@ -1,5 +1,6 @@
 .Fiche {
     color: #ff6060;
+    margin: 0px 100px 0px 100px;
 }
 
 .logements-propietaire {
@@ -13,10 +14,12 @@
 
 .information-logements {
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .titre-logement {
     font-size: 36px;
+    margin-bottom: 15px;
 }
 
 .endroit-logement {
@@ -64,10 +67,12 @@
     list-style: none;
     margin-top: 25px;
     width: 100%;
+    font-size: 18px;
 }
 
-.description-equipements > .dropdown {
+.description-equipements > .collapse {
     width: 50%;
+    margin: 0px 0px 40px 0px;
 }
 
 @media screen and (max-width: 1490px) {
@@ -124,11 +129,19 @@
         display: block;
     }
 
-    .description-equipements > .dropdown {
+    .description-equipements > .collapse {
         width: 100%;
     }
     
-    .dropdown {
+    .collapse {
         margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Fiche{
+        margin: 0px 20px 0px 20px;
+    }
+    .titre-collapse{
+        font-size: 18px;
     }
 }

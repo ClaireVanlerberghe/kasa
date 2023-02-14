@@ -10,3 +10,12 @@
     justify-content: center;
     border-radius: 25px;
 }
+@media screen and (max-width: 500px) {
+    .aboutBanner{
+        margin: 0px 20px 0px 20px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../bannerAboutResponsive.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}

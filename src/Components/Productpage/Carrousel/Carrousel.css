@@ -1,9 +1,9 @@
 .carrousel {
     display: block;
     height: 415px;
-    margin: auto auto 30px auto;
+    margin: auto 0px 30px 0px;
     position: relative;
-    width: 100%;
+    
 }
 
 .fleche {
@@ -19,13 +19,13 @@
 .fleche-gauche {
     margin-left: 25px;
     top: 50%;
-    transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(90deg);
 }
 .fleche-droite {
     margin-right: 25px;
     right: 0;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate(270deg);
 }
 
 .carrousel-img {
@@ -58,5 +58,10 @@
 
     .carrousel-img {
         height: 255px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .fleche{
+        width: 25px;
     }
 }
